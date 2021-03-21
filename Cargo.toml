@@ -13,3 +13,11 @@ futures = "0.3"
 rand = "0.8"
 uuid = { version = "0.8", features = ["v4"] }
 async-std = "1.9"
+
+[[bin]]
+name = "nagmed"
+path = "src/daemon/main.rs"
+
+[[bin]]
+name = "nagme"
+path = "src/client/main.rs"

@@ -1,12 +1,13 @@
 //! library for the nagger.
 //!
+#![allow(dead_code)]
 
 use async_std::{
     channel,
     sync::{Arc, Mutex},
     task,
 };
-use chrono::{DateTime, Duration, Local};
+use chrono::{DateTime, Local};
 use sorted_vec::SortedVec;
 use std::cmp::Ordering;
 
